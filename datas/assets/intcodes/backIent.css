@@ -1,0 +1,162 @@
+.content0 {
+    padding: 300.3px;
+    margin: 0px;
+    opacity: 75%;
+    background-color: beige;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 37%, #77042f 100%);
+    animation-name: gradient;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gradient {
+    0% {
+        transform: scale(1);
+        filter: opacity(70%);
+    }
+
+    50% {
+        filter: opacity(90%);
+        background-position: left;
+    }
+
+    100% {
+        transform: scale(1);
+        filter: opacity(80%);
+    }
+}
+
+.youtube-0 {
+    background-color: coral;
+    border: 3px solid white ;
+    border-radius: 200px;
+    position: absolute;
+    top: 95px;
+    right: 500px;
+    filter: drop-shadow(0 0 7px
+    white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(360deg);
+    animation-name: borderTube;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.img-You-0 {
+    border-radius: 200px;
+    opacity: 100%;
+    width: 400px;
+    height: 400px;
+    transform: scale(1.03);
+    animation-name: tubeStart;
+    animation-duration: .5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+}
+
+@keyframes borderTube {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes tubeStart {
+    from {
+        transform: scale(.3);
+    }
+
+    to {
+        transform: scale(1.03);
+    }
+}
+
+.discTube:hover {
+    filter: drop-shadow(0 0 17px
+    white);
+    border-radius: 200px;
+    transition: .4s ease-in-out;
+    transition-delay: .1s;
+    opacity: 85%;
+}
+
+.Miaw0 {
+    top: 135px;
+    left: 50px;
+    position: absolute;
+    background: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 70px;
+    color: beige;
+    animation-name: Miaw00;
+    animation-duration: .5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    filter: drop-shadow(0 0 7px
+    white);
+}
+
+@keyframes Miaw00 {
+    from {
+        top: 110px;
+        filter: drop-shadow(0 0 12px
+        aquamarine);
+        filter: drop-shadow(0 0 5px
+        aqua);
+    }
+
+    to {
+        top: 250px;
+        filter: drop-shadow(0 0 20px
+        white);
+    }
+}
+
+.Aug0 {
+    top: 440px;
+    right: 150px;
+    position: absolute;
+    background: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 75px;
+    color: beige;
+    animation-name: Aug00;   
+    animation-duration: .5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    filter: drop-shadow(0 0 7px
+    white);
+}
+
+@keyframes Aug00 {
+    from {
+        top: 390px;
+        filter: drop-shadow(0 0 12px
+        aquamarine);
+        filter: drop-shadow(0 0 5px
+        aqua);
+    }
+
+    to {
+        top: 250px;
+        filter: drop-shadow(0 0 20px
+        white);
+    }
+}
